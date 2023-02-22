@@ -114,7 +114,16 @@ main {
 .left-beranda h1 {
   font-size: 2.5rem;
 }
-
+@media screen and (max-width: 600px) {
+  .left-beranda h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .left-beranda h1 {
+    font-size: 1.5rem;
+  }
+}
 .left-beranda h2 {
   font-weight: lighter;
   font-size: large;
