@@ -1,0 +1,17 @@
+{
+  "name": "portfolio-tailwindcss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./src/output.css",
+    "prod": "tailwindcss -i ./src/input.css -o ./src/output.css --minify"
+  },
+  "keywords": [],
+  "author": "M NUR ICHSAN IN",
+  "license": "ISC",
+  "description": "latihan membuat web portfolio dengan tailwindcss",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
