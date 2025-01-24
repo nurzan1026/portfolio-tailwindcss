@@ -12,6 +12,9 @@ module.exports = {
         secondary: "#0891b2",
         dark: "#0f172a",
       },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+      },
       screens: {
         "2xl": "1320px",
       },
