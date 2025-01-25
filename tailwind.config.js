@@ -11,6 +11,7 @@ module.exports = {
         primary: "#06b6d4",
         secondary: "#0891b2",
         dark: "#0f172a",
+        kuning: "#fde047",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
@@ -20,5 +21,14 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addComponents }) {
+      addComponents({
+        ".btn-link": {
+          "@apply flex items-center space-x-2 text-dark border border-primary py-5 px-5 rounded-md w-full h-10 justify-center hover:bg-yellow-300 hover:text-slate-800 transition duration-300 ease-in-out":
+            "",
+        },
+      });
+    },
+  ],
 };
